@@ -1,6 +1,6 @@
 module.exports = {
   index: function(req, res){
-    res.jsonp({
+    res.json({
       profilePic:'http://www.playgamesarcade.com/images/avatars/calvin_avatar.jpg',
       name: 'Kai Lin',
       title: 'Game Designer',
